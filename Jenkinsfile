@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'dev', credentialsId: 'github', url: 'https://github.com/vamshireddy903/simple-java-app.git'
+                git branch: 'dev', credentialsId: 'github', url: 'https://github.com/vamshireddy903/multi-branch-pipeline-project.git'
             }
         }
 
