@@ -29,14 +29,14 @@ public class Main {
                     "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" +
                     "<title>Hello Docker - Main Branch</title>" +
                     "<style>" +
-                    "body { font-family: Arial; background: #0072ff; color: white; text-align: center; padding-top: 50px; }" +
+                    "body { font-family: Arial; background: aqua; color: black; text-align: center; padding-top: 50px; }" +
                     "h1 { font-size: 3em; }" +
                     "h2 { font-size: 2em; }" +
                     "footer { margin-top: 50px; font-size: 0.9em; opacity: 0.8; }" +
                     "</style>" +
                     "</head>" +
                     "<body>" +
-                    "<h1>🚀 Hello, Docker from <span style='color:yellow'>Prod Branch!</span></h1>" +
+                    "<h1>🚀 Hello, Docker from <span style='color:darkblue'>Prod Branch!</span></h1>" +
                     "<p>Current date and time:</p>" +
                     "<h2>" + timeStamp + "</h2>" +
                     "<footer>Powered by Java & Docker (Prod Branch)</footer>" +
@@ -51,4 +51,3 @@ public class Main {
         }
     }
 }
-
