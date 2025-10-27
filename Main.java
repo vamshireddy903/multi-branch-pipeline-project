@@ -39,7 +39,7 @@ public class Main {
                     "<h1>🚀 Hello, Docker from <span style='color:yellow'>Stag Branch!</span></h1>" +
                     "<p>Current date and time:</p>" +
                     "<h2>" + timeStamp + "</h2>" +
-                    "<footer>Powered by Java & Docker (Main Branch)</footer>" +
+                    "<footer>Powered by Java & Docker (Stag Branch)</footer>" +
                     "</body>" +
                     "</html>";
 
