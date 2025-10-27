@@ -25,7 +25,7 @@ pipeline {
             steps {
                 sh '''
                     docker rm -f $CONTAINER_NAME || true
-                    docker run -d --name $CONTAINER_NAME -p 8080:8080 $FULL_IMAGE
+                    docker run -d --name $CONTAINER_NAME -p 8084:8080 $FULL_IMAGE
                 '''
             }
         }
