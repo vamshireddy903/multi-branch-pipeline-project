@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "vamshi589/simple-java-app"
-        IMAGE_TAG = "main-${BUILD_NUMBER}"
+        IMAGE_TAG = "stag-${BUILD_NUMBER}"
         FULL_IMAGE = "${IMAGE_NAME}:${IMAGE_TAG}"
         CONTAINER_NAME = "java-stag-container"
     }
