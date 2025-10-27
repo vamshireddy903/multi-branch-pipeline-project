@@ -43,7 +43,7 @@ public class Main {
                     "<h1>Hello, Docker from Dev Branch! </h1>" +
                     "<p>Current date and time:</p>" +
                     "<h2>" + timeStamp + "</h2>" +
-                    "<footer>Powered by Java & Docker</footer>" +
+                    "<footer>Powered by Java & Docker(dev branch)</footer>" +
                     "</body>" +
                     "</html>";
 
